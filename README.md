@@ -28,3 +28,7 @@ The difficulty of this exercise is that both APIs, the add and sub API should us
 ### 2.2 Only allow GET request method
 
 Our API returns a response based on our request; we therefore only want the GET HTTP method to be used. Change the API script to make sure any request method other than GET gets a 405 status code returned with an appropriate error message.
+
+### 2.3 Use query parameters to pass the two numbers
+
+Instead of using the raw body and splitting it to get the two numbers, change the API script so it expects these to be passed via query parameters. The URL will then have "?a=125&b=250" which would result in 375 when called for the 'add' API.
