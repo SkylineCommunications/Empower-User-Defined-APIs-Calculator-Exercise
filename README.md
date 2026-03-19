@@ -15,7 +15,7 @@ The API script is given to you from the catalog package: ‘CalculatorAPI’. Cr
 
 ## 2. Advanced exercises
 
-The following exercises will not be done during the Empower session but can be done during your own time. The solutions are included in the package under the solution folder in Automation. The ‘solution’ script contains the API script, the ‘CreateDefinitionAndToken’ script can be executed through cube and will create the definition(s) and token(s) for the exercise.
+In the following exercises we will extend our API, mostly by making changes to our automation script. The solutions are included in the package under the solution folder in Automation. The ‘solution’ script contains the API script, the ‘CreateDefinitionAndToken’ script can be executed through cube and will create the definition(s) and token(s) for the exercise. The token secret will be shown to you in an IAS window.
 
 Open the CalculatorAPI automation script in Visual Studio with DIS and use that to adapt/extend the script. You can use the [publish feature in DIS](https://docs.dataminer.services/develop/CICD/Skyline%20Communications/Gerrit%20and%20Jenkins/Automation_scripts_as_a_Visual_Studio_solution.html#uploading-a-script-to-a-dataminer-agent) to publish the script to your DataMiner agent.
 
